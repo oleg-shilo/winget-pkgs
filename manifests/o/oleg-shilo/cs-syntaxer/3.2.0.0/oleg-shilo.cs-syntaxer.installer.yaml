@@ -1,0 +1,16 @@
+# Created using wingetcreate 1.5.7.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.5.0.schema.json
+
+PackageIdentifier: oleg-shilo.cs-syntaxer
+PackageVersion: 3.2.0.0
+InstallerType: zip
+NestedInstallerType: portable
+NestedInstallerFiles:
+- RelativeFilePath: syntaxer.exe
+  PortableCommandAlias: syntaxer
+Installers:
+- InstallerUrl: https://github.com/oleg-shilo/syntaxer.core/releases/download/v3.2.0.0/syntaxer.net9.zip
+  Architecture: neutral
+  InstallerSha256: 3943ed2f6346ec41c507c801c1e3f5e198292b2d9d578e7f36565842e1be73ec
+ManifestType: installer
+ManifestVersion: 1.6.0
